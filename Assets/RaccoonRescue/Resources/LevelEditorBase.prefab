@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &168144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 404644}
+  - component: {fileID: 11485200}
+  m_Layer: 0
+  m_Name: LevelEditorBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: c9d38b47f8b3c2e4faa2ef03c763dea6, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404644
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11485200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76089b56aebc1304b966c920453be1fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: d4a1121e8a4b8435786ed23c7a9095c3, type: 3}
+  - {fileID: 21300000, guid: 0f7377aa01b304d51bd84fdc39ff99b3, type: 3}
+  - {fileID: 21300000, guid: 3de71b4fac7b14018af05aac95da2f6a, type: 3}
+  - {fileID: 21300000, guid: a72f8c9549a4942cab311586c94414a9, type: 3}
+  - {fileID: 21300000, guid: 3adc2acc076964ac7a809ce55116cbfd, type: 3}
+  - {fileID: 21300000, guid: 0454282dff9ab44eab0bd52178fa6e51, type: 3}
+  backgrounds:
+  - {fileID: 0}
+  enableInApps: 1
+  enableUnityAds: 1
+  enableGoogleMobileAds: 1
+  InAppIDs:
+  - pack1
+  - pack2
+  - pack3
+  - pack4
+  rewardedGems: 5
+  adsEvents:
+  - gameEvent: 1
+    adType: 0
+    callsTreshold: 3
+    calls: 0
+  - gameEvent: 2
+    adType: 0
+    callsTreshold: 3
+    calls: 0
+  - gameEvent: 6
+    adType: 2
+    callsTreshold: 1
+    calls: 0
+  - gameEvent: 11
+    adType: 2
+    callsTreshold: 4
+    calls: 0
+  - gameEvent: 8
+    adType: 0
+    callsTreshold: 3
+    calls: 0
+  admobUIDAndroid: ca-app-pub-9974681578637939/6393464263
+  admobUIDIOS: ca-app-pub-9974681578637939/9346930669
+  admobRewardedUIDAndroid: ca-app-pub-9974681578637939/4916731066
+  admobRewardedUIDIOS: ca-app-pub-9974681578637939/1823663865
+  showPopupScores: 1
+  androidSharingPath: 
+  iosSharingPath: 
+  CapOfLife: 5
+  TotalTimeForRestLifeHours: 0
+  TotalTimeForRestLifeMin: 15
+  TotalTimeForRestLifeSec: 60
+  CostIfRefill: 25
+  FirstGems: 20
+  FailedCost: 12
+  ExtraFailedMoves: 5
+  ExtraFailedSecs: 30
+  enableChartboostAds: 0
+  items:
+  - sprite: {fileID: 0}
+    color: 0
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 0
+  - sprite: {fileID: 21300000, guid: 3de71b4fac7b14018af05aac95da2f6a, type: 3}
+    color: 3
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 3adc2acc076964ac7a809ce55116cbfd, type: 3}
+    color: 5
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 0f7377aa01b304d51bd84fdc39ff99b3, type: 3}
+    color: 2
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: d4a1121e8a4b8435786ed23c7a9095c3, type: 3}
+    color: 1
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: a72f8c9549a4942cab311586c94414a9, type: 3}
+    color: 4
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 051247463683e49eeb97ec36653f8c97, type: 3}
+    color: 6
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 0454282dff9ab44eab0bd52178fa6e51, type: 3}
+    color: 7
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 7ebb3d57607c143359383cacdcd5a99c, type: 3}
+    color: 7
+    itemType: 3
+    powerUp: 1
+    prefab: {fileID: 124144, guid: 7612b4183a8b1411dac2275d73eedfa0, type: 2}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 842887145adb74a8a975633d6692ee8b, type: 3}
+    color: 7
+    itemType: 3
+    powerUp: 2
+    prefab: {fileID: 1279274879506928, guid: c76ece493ddbd48c5b3a76ab53109c3b, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 2243ce394125044e6b5f5e1cb18c4e98, type: 3}
+    color: 0
+    itemType: 3
+    powerUp: 3
+    prefab: {fileID: 152444, guid: 78409b16048024024be6234be94104c9, type: 2}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: f2bfee03ac41843fcba681cd1f6ef12c, type: 3}
+    color: 3
+    itemType: 2
+    powerUp: 0
+    prefab: {fileID: 1494154672415726, guid: 11cd78acabb69479aa725661968b494d, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: f84046141107d4bef8faf734cd7f4993, type: 3}
+    color: 5
+    itemType: 2
+    powerUp: 0
+    prefab: {fileID: 1494154672415726, guid: 11cd78acabb69479aa725661968b494d, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: d81b4820e414a44e29c169373e7ffa4e, type: 3}
+    color: 2
+    itemType: 2
+    powerUp: 0
+    prefab: {fileID: 1494154672415726, guid: 11cd78acabb69479aa725661968b494d, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 71c88f9cd880f450cb9021accb3cd6d4, type: 3}
+    color: 1
+    itemType: 2
+    powerUp: 0
+    prefab: {fileID: 1494154672415726, guid: 11cd78acabb69479aa725661968b494d, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: ba5276a0de6d0442b9bd831bfcaf4b88, type: 3}
+    color: 4
+    itemType: 2
+    powerUp: 0
+    prefab: {fileID: 1494154672415726, guid: 11cd78acabb69479aa725661968b494d, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: ff825032c502844d385958b035016b28, type: 3}
+    color: 6
+    itemType: 2
+    powerUp: 0
+    prefab: {fileID: 1494154672415726, guid: 11cd78acabb69479aa725661968b494d, type: 2}
+    applyingPrefab: 1
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 7793bc9ac557b4fd29f2b999789e4bf6, type: 3}
+    color: 8
+    itemType: 0
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 0c4510302bf0e459ba8be37cb3d0f7b9, type: 3}
+    color: 0
+    itemType: 4
+    powerUp: 0
+    prefab: {fileID: 104058, guid: 1542b1f97eb9d409ab8069f6ad883613, type: 2}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 1413220381990588, guid: 56dc83b0fe3e2405f823c96aad14f197,
+      type: 2}
+    appearBallAfterDestroyNum: 7
+    score: 10
+  - sprite: {fileID: 21300000, guid: 6e4618ff144204362a90f9ce911de934, type: 3}
+    color: 0
+    itemType: 4
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 1601490699221442, guid: c254431abd77c47d69eb09c885bc0f06,
+      type: 2}
+    appearBallAfterDestroyNum: 20
+    score: 10
+  - sprite: {fileID: 21300000, guid: 6d7c85a5bb76b42dd985fbccd2b57a1a, type: 3}
+    color: 0
+    itemType: 4
+    powerUp: 0
+    prefab: {fileID: 0}
+    applyingPrefab: 0
+    onDestroyEffect: {fileID: 1601490699221442, guid: c254431abd77c47d69eb09c885bc0f06,
+      type: 2}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  - sprite: {fileID: 21300000, guid: 8fb73f25af656470a9f32447fceb9bc3, type: 3}
+    color: 0
+    itemType: 3
+    powerUp: 4
+    prefab: {fileID: 1360905703169670, guid: d0de9e001b6c0446db856e9daa4bcda3, type: 2}
+    applyingPrefab: 2
+    onDestroyEffect: {fileID: 0}
+    appearBallAfterDestroyNum: 0
+    score: 10
+  powerupTextures:
+  - {fileID: 2800000, guid: ffc850ae92c534bd98475ed71f7c2cb5, type: 3}
+  - {fileID: 2800000, guid: 19296a3c04abf40128606f2637558c83, type: 3}
+  - {fileID: 2800000, guid: 33f5ad22bbe3c4deba2240f588d67be2, type: 3}
+  - {fileID: 2800000, guid: fae4b72efa5d845d88a01638810372b7, type: 3}
+  powerupTexturesOn:
+  - {fileID: 2800000, guid: 43f773a4db27840ba9b6f71e24a088b7, type: 3}
+  - {fileID: 2800000, guid: 594ba878ef373453394822f21d461397, type: 3}
+  - {fileID: 2800000, guid: 4a986215c086f4d3f8828ce9556fb0c9, type: 3}
+  - {fileID: 2800000, guid: 5314f9cac3eaf4ab68837c6d7106cfec, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: adsEvents.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: enableInApps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: enableChartboostAds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: adsEvents.Array.data[2].gameEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: adsEvents.Array.data[2].adType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: adsEvents.Array.data[2].everyLevel
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 168144}
+  m_IsPrefabParent: 1

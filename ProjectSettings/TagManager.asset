@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Mesh
+  - FxTemporaire
+  - Rainbow
+  - centerball
+  - Pot
+  - Ball
+  - Bug
+  - animal
+  - empty
+  - animalMed
+  - animalLarge
+  - cloud
+  - light
+  - black_hole
+  - Destroy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - gui
+  - Ball
+  - Mesh
+  - Obstacles
+  - Pot
+  - FallingBall
+  - Border
+  - TopBorder
+  - Bug
+  - NewBall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1133925485
+    locked: 0
+  - name: UI layer
+    uniqueID: 2880480255
+    locked: 0

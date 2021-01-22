@@ -1,0 +1,1323 @@
+{
+    "@id": "/game/o349262F4rkE/config",
+    "analyticsCurrencyCode": "USD",
+    "apiKey": "o349262F4rkE",
+    "description": "match3",
+    "endSessionDelayMinutes": null,
+    "excludedCountries": null,
+    "integrations": {
+        "@id": "/integrations",
+        "amazon": {
+            "@id": "/integrations/amazon",
+            "admClientId": null,
+            "admClientSecret": null,
+            "admMessageAttribute": null,
+            "admMessageCountAttribute": null,
+            "admSubTitleAttribute": null,
+            "admTitleAttribute": null,
+            "amazonAppId": null,
+            "amazonPurchaseSecret": null,
+            "kindleMessageTemplate": null,
+            "segmentData": null
+        },
+        "apple": {
+            "@id": "/integrations/apple",
+            "bundleId": null,
+            "devCertPassword": null,
+            "devExpiryDate": null,
+            "devPushCertificate": null,
+            "devPushCertificateAlias": null,
+            "devPushCertificateName": null,
+            "iosMessageTemplate": null,
+            "prodCertPassword": null,
+            "prodExpiryDate": null,
+            "prodPushCertificate": null,
+            "prodPushCertificateAlias": null,
+            "prodPushCertificateName": null,
+            "segmentData": null,
+            "useIosProdCert": false,
+            "useIosProdCertLive": false
+        },
+        "facebook": {
+            "@id": "/integrations/facebook",
+            "facebookAppId": "254298944979134",
+            "facebookSecret": "a3c7eb73e0e5184f8b2f88366f94d5fc",
+            "segmentData": []
+        },
+        "google": {
+            "@id": "/integrations/google",
+            "androidMessageTemplate": null,
+            "appId": null,
+            "fcmMessageTemplate": null,
+            "fcmServerKey": null,
+            "gcmApiKey": null,
+            "gcmMessageAttribute": null,
+            "gcmMessageCountAttribute": null,
+            "gcmSubTitleAttribute": null,
+            "gcmTitleAttribute": null,
+            "googlePlayPublicKey": null,
+            "googlePlusClientId": null,
+            "googlePlusClientSecret": null,
+            "googlePlusServiceCertificate": null,
+            "googlePlusServiceCertificateName": null,
+            "googlePlusServiceId": null,
+            "segmentData": null
+        },
+        "kongregate": {
+            "@id": "/integrations/kongregate",
+            "kongregateApiKey": null,
+            "segmentData": null
+        },
+        "microsoft": {
+            "@id": "/integrations/microsoft",
+            "packageSid": null,
+            "pfxFile": null,
+            "pfxFileName": null,
+            "pfxPassword": null,
+            "secretKey": null,
+            "segmentData": null,
+            "wnsClientSecret": null,
+            "wnsPackageSid": null
+        },
+        "nx": {
+            "@id": "/integrations/nx",
+            "liveEnvironment": null,
+            "nxApplicationId": null,
+            "previewEnvironment": null,
+            "segmentData": null
+        },
+        "psn": {
+            "@id": "/integrations/psn",
+            "psnClientId": null,
+            "psnClientSecret": null,
+            "segmentData": null,
+            "serviceLabel": null,
+            "usePsnDevNetworkLive": null,
+            "usePsnDevNetworkPreview": null,
+            "usePsnProdQaNetworkLive": null,
+            "usePsnProdQaNetworkPreview": null
+        },
+        "qq": {
+            "@id": "/integrations/qq",
+            "qqAppId": null,
+            "qqAppKey": null,
+            "segmentData": null
+        },
+        "steam": {
+            "@id": "/integrations/steam",
+            "segmentData": null,
+            "steamApiKey": null,
+            "steamAppId": null
+        },
+        "twitch": {
+            "@id": "/integrations/twitch",
+            "saveTwitchToken": true,
+            "segmentData": null
+        },
+        "twitter": {
+            "@id": "/integrations/twitter",
+            "segmentData": null,
+            "twitterAppId": null,
+            "twitterSecret": null
+        },
+        "viber": {
+            "@id": "/integrations/viber",
+            "segmentData": null,
+            "viberDefaultAction": null,
+            "viberDefaultImageUrl": null,
+            "viberEnabled": null,
+            "viberUseIntegrationEnvironmentLive": null,
+            "viberUseIntegrationEnvironmentPreview": null
+        }
+    },
+    "name": "Jelly Garden",
+    "newUserCurrency1Bonus": 0,
+    "newUserCurrency2Bonus": 0,
+    "newUserCurrency3Bonus": 0,
+    "newUserCurrency4Bonus": 0,
+    "newUserCurrency5Bonus": 0,
+    "newUserCurrency6Bonus": 0,
+    "segmentData": null,
+    "~achievements": [],
+    "~challenges": [],
+    "~credentials": [
+        {
+            "@id": "/~credentials/server",
+            "canCallback": true,
+            "canHavePlayer": false,
+            "canListen": true,
+            "coppaCompliant": false,
+            "description": "System server credential",
+            "name": "server",
+            "restPolicy": "Allowed",
+            "secret": "T3iqkcYqD7SMYd3qTRjWwmnRmsTVSpSz",
+            "system": true,
+            "type": "server",
+            "~requests": []
+        },
+        {
+            "@id": "/~credentials/debug",
+            "canCallback": false,
+            "canHavePlayer": true,
+            "canListen": true,
+            "coppaCompliant": false,
+            "description": "System debug credential",
+            "name": "debug",
+            "restPolicy": "Allowed",
+            "secret": "hiNUM6d6hxYATqvjltVJ2pmEgwJqjL1f",
+            "system": true,
+            "type": "debug",
+            "~requests": []
+        },
+        {
+            "@id": "/~credentials/server-send",
+            "canCallback": false,
+            "canHavePlayer": false,
+            "canListen": false,
+            "coppaCompliant": false,
+            "description": "System server-send credential",
+            "name": "server-send",
+            "restPolicy": "Allowed",
+            "secret": "aVgkfnNnAMoekmy8BVrjPwGo0EGLcwsN",
+            "system": true,
+            "type": "server-send",
+            "~requests": []
+        },
+        {
+            "@id": "/~credentials/sftp",
+            "canCallback": false,
+            "canHavePlayer": true,
+            "canListen": true,
+            "coppaCompliant": false,
+            "description": "System sftp credential",
+            "name": "sftp",
+            "restPolicy": "Allowed",
+            "secret": "VbhNscfvyBJYC2rmSZr2fL2RdXzYsE6S",
+            "system": true,
+            "type": "sftp",
+            "~requests": []
+        },
+        {
+            "@id": "/~credentials/device",
+            "canCallback": false,
+            "canHavePlayer": true,
+            "canListen": true,
+            "coppaCompliant": false,
+            "description": "System device credential",
+            "name": "device",
+            "restPolicy": "Allowed",
+            "secret": "wf8cdmcJylT9PGKjq82yKY5kUkbL3smh",
+            "system": true,
+            "type": "device",
+            "~requests": []
+        }
+    ],
+    "~currencies": [],
+    "~downloadables": [],
+    "~events": [
+        {
+            "@id": "/~events/AddCurrency",
+            "description": "AddCurrency",
+            "name": "AddCurrency",
+            "shortCode": "AddCurrency",
+            "~attributes": [
+                {
+                    "@id": "/~events/AddCurrency/~attributes/Value",
+                    "dataType": "int",
+                    "defaultAggregationType": "LAST",
+                    "defaultValue": null,
+                    "name": "Value",
+                    "shortCode": "Value"
+                }
+            ]
+        },
+        {
+            "@id": "/~events/GetReachedLevel",
+            "description": "Get reached level",
+            "name": "Get reached level",
+            "shortCode": "GetReachedLevel",
+            "~attributes": []
+        },
+        {
+            "@id": "/~events/GetStars",
+            "description": "Get stars",
+            "name": "Get stars",
+            "shortCode": "GetStars",
+            "~attributes": []
+        },
+        {
+            "@id": "/~events/GetBoosts",
+            "description": "GetBoosts",
+            "name": "GetBoosts",
+            "shortCode": "GetBoosts",
+            "~attributes": []
+        },
+        {
+            "@id": "/~events/GetCurrency",
+            "description": "GetCurrency",
+            "name": "GetCurrency",
+            "shortCode": "GetCurrency",
+            "~attributes": []
+        },
+        {
+            "@id": "/~events/GetScore",
+            "description": "GetScore",
+            "name": "GetScore",
+            "shortCode": "GetScore",
+            "~attributes": []
+        },
+        {
+            "@id": "/~events/ScoreLevel",
+            "description": "Score by level",
+            "name": "Score by level",
+            "shortCode": "ScoreLevel",
+            "~attributes": [
+                {
+                    "@id": "/~events/ScoreLevel/~attributes/Score",
+                    "dataType": "int",
+                    "defaultAggregationType": "MAX",
+                    "defaultValue": "0",
+                    "name": "Score",
+                    "shortCode": "Score"
+                },
+                {
+                    "@id": "/~events/ScoreLevel/~attributes/Level",
+                    "dataType": "string",
+                    "defaultAggregationType": "GROUP",
+                    "defaultValue": null,
+                    "name": "Level",
+                    "shortCode": "Level"
+                }
+            ]
+        },
+        {
+            "@id": "/~events/SetBoosts",
+            "description": "Set boosts",
+            "name": "Set boosts",
+            "shortCode": "SetBoosts",
+            "~attributes": [
+                {
+                    "@id": "/~events/SetBoosts/~attributes/Boosts",
+                    "dataType": "json",
+                    "defaultAggregationType": "SCRIPT",
+                    "defaultValue": null,
+                    "name": "Boosts",
+                    "shortCode": "Boosts"
+                }
+            ]
+        },
+        {
+            "@id": "/~events/SetReachedLevel",
+            "description": "Set Reached level",
+            "name": "Set Reached level",
+            "shortCode": "SetReachedLevel",
+            "~attributes": [
+                {
+                    "@id": "/~events/SetReachedLevel/~attributes/Level",
+                    "dataType": "int",
+                    "defaultAggregationType": "MAX",
+                    "defaultValue": null,
+                    "name": "Level",
+                    "shortCode": "Level"
+                }
+            ]
+        },
+        {
+            "@id": "/~events/SetStars",
+            "description": "Set Stars",
+            "name": "Set Stars",
+            "shortCode": "SetStars",
+            "~attributes": [
+                {
+                    "@id": "/~events/SetStars/~attributes/Level",
+                    "dataType": "string",
+                    "defaultAggregationType": "GROUP",
+                    "defaultValue": null,
+                    "name": "Level",
+                    "shortCode": "Level"
+                },
+                {
+                    "@id": "/~events/SetStars/~attributes/Stars",
+                    "dataType": "int",
+                    "defaultAggregationType": "MAX",
+                    "defaultValue": null,
+                    "name": "Stars",
+                    "shortCode": "Stars"
+                }
+            ]
+        },
+        {
+            "@id": "/~events/SetCurrency",
+            "description": "SetCurrency",
+            "name": "SetCurrency",
+            "shortCode": "SetCurrency",
+            "~attributes": [
+                {
+                    "@id": "/~events/SetCurrency/~attributes/Value",
+                    "dataType": "int",
+                    "defaultAggregationType": "LAST",
+                    "defaultValue": null,
+                    "name": "Value",
+                    "shortCode": "Value"
+                }
+            ]
+        },
+        {
+            "@id": "/~events/SpendCurrency",
+            "description": "SpendCurrency",
+            "name": "SpendCurrency",
+            "shortCode": "SpendCurrency",
+            "~attributes": [
+                {
+                    "@id": "/~events/SpendCurrency/~attributes/Value",
+                    "dataType": "int",
+                    "defaultAggregationType": "LAST",
+                    "defaultValue": null,
+                    "name": "Value",
+                    "shortCode": "Value"
+                }
+            ]
+        }
+    ],
+    "~indexedTypes": [
+        {
+            "@id": "/~indexedTypes/SetReachedLevel",
+            "description": "Level reached",
+            "name": "Set Reached Level",
+            "shortCode": "SetReachedLevel",
+            "~indexedFields": [
+                {
+                    "@id": "/~indexedTypes/SetReachedLevel/~indexedFields/Level",
+                    "path": "level",
+                    "shortCode": "Level",
+                    "type": "N"
+                },
+                {
+                    "@id": "/~indexedTypes/SetReachedLevel/~indexedFields/PlayerID",
+                    "path": "playerID",
+                    "shortCode": "PlayerID",
+                    "type": "S"
+                }
+            ]
+        }
+    ],
+    "~leaderboards": [
+        {
+            "@id": "/~leaderboards/LB",
+            "description": "Leadboard",
+            "highScoreNotifications": true,
+            "name": "Leadboard",
+            "propertySet": null,
+            "segmentData": [],
+            "shortCode": "LB",
+            "snapshotFrequency": "NEVER",
+            "socialNotifications": true,
+            "team": null,
+            "topNNotifications": false,
+            "topNThreshold": null,
+            "updateFrequency": "REALTIME",
+            "~fields": [
+                {
+                    "@id": "/~leaderboards/LB/~fields/Score-all",
+                    "calcType": "MAX",
+                    "collector": {
+                        "@ref": "/~runningTotals/ScoreLevel/~collectors/Score-all"
+                    },
+                    "filterType": "*",
+                    "filterValue": null,
+                    "sort": "DESC"
+                },
+                {
+                    "@id": "/~leaderboards/LB/~fields/Level-all",
+                    "calcType": "PARTITION",
+                    "collector": {
+                        "@ref": "/~runningTotals/ScoreLevel/~collectors/Level-all"
+                    },
+                    "filterType": "*",
+                    "filterValue": null,
+                    "sort": "DESC"
+                }
+            ]
+        },
+        {
+            "@id": "/~leaderboards/Level",
+            "description": "Level",
+            "highScoreNotifications": true,
+            "name": "Level",
+            "propertySet": null,
+            "segmentData": [],
+            "shortCode": "Level",
+            "snapshotFrequency": "NEVER",
+            "socialNotifications": true,
+            "team": null,
+            "topNNotifications": false,
+            "topNThreshold": null,
+            "updateFrequency": "REALTIME",
+            "~fields": [
+                {
+                    "@id": "/~leaderboards/Level/~fields/Level-all",
+                    "calcType": "MIN",
+                    "collector": {
+                        "@ref": "/~runningTotals/SetReachedLevel/~collectors/Level-all"
+                    },
+                    "filterType": "*",
+                    "filterValue": null,
+                    "sort": "DESC"
+                }
+            ]
+        },
+        {
+            "@id": "/~leaderboards/Stars",
+            "description": "Stars",
+            "highScoreNotifications": true,
+            "name": "Stars",
+            "propertySet": null,
+            "segmentData": [],
+            "shortCode": "Stars",
+            "snapshotFrequency": "NEVER",
+            "socialNotifications": true,
+            "team": null,
+            "topNNotifications": false,
+            "topNThreshold": null,
+            "updateFrequency": "REALTIME",
+            "~fields": [
+                {
+                    "@id": "/~leaderboards/Stars/~fields/Stars-all",
+                    "calcType": "MAX",
+                    "collector": {
+                        "@ref": "/~runningTotals/SetStars/~collectors/Stars-all"
+                    },
+                    "filterType": "*",
+                    "filterValue": null,
+                    "sort": "DESC"
+                },
+                {
+                    "@id": "/~leaderboards/Stars/~fields/Level-all",
+                    "calcType": "ID",
+                    "collector": {
+                        "@ref": "/~runningTotals/SetStars/~collectors/Level-all"
+                    },
+                    "filterType": "*",
+                    "filterValue": null,
+                    "sort": "DESC"
+                }
+            ]
+        }
+    ],
+    "~matches": [],
+    "~messages": [
+        {
+            "@id": "/~messages/AchievementEarnedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "You just earned ${achievementName}",
+            "messageTitle": null,
+            "name": "AchievementEarnedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeAcceptedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${challenge.challenger.name} has accepted the challenge.",
+            "messageTitle": null,
+            "name": "ChallengeAcceptedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeChangedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${who} just posted a new score in ${challenge.challengeName}.",
+            "messageTitle": null,
+            "name": "ChallengeChangedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeChatMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${who} just said \"${message}\"",
+            "messageTitle": null,
+            "name": "ChallengeChatMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeDeclinedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${who} has declined you challenge.",
+            "messageTitle": null,
+            "name": "ChallengeDeclinedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeDrawnMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "No one won ${challenge.challengeName}.",
+            "messageTitle": null,
+            "name": "ChallengeDrawnMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeExpiredMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${challenge.challengeName} has run out of time.",
+            "messageTitle": null,
+            "name": "ChallengeExpiredMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeIssuedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${who} just challenged you at ${challenge.challengeName}.",
+            "messageTitle": null,
+            "name": "ChallengeIssuedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeJoinedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "ChallengeJoinedMessage",
+            "messageTitle": null,
+            "name": "ChallengeJoinedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeLapsedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "ChallengeLapsedMessage",
+            "messageTitle": null,
+            "name": "ChallengeLapsedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeLostMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "Sorry, ${winnerName} beat you at ${challenge.challengeName}.",
+            "messageTitle": null,
+            "name": "ChallengeLostMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeStartedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${challenge.challengeName} is good to go.",
+            "messageTitle": null,
+            "name": "ChallengeStartedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeTurnTakenMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${who} has taken their turn.",
+            "messageTitle": null,
+            "name": "ChallengeTurnTakenMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeWaitingMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${challenge.challengeName} is waiting to start.",
+            "messageTitle": null,
+            "name": "ChallengeWaitingMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeWithdrawnMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${challenge.challenger.name} has decided not to play.",
+            "messageTitle": null,
+            "name": "ChallengeWithdrawnMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ChallengeWonMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "You won at ${challenge.challengeName}.",
+            "messageTitle": null,
+            "name": "ChallengeWonMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/FriendMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "${who} just said \"${message}\"",
+            "messageTitle": null,
+            "name": "FriendMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/GlobalRankChangedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "GlobalRankChangedMessage",
+            "messageTitle": null,
+            "name": "GlobalRankChangedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/MatchFoundMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "MatchFoundMessage",
+            "messageTitle": null,
+            "name": "MatchFoundMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/MatchNotFoundMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "MatchNotFoundMessage",
+            "messageTitle": null,
+            "name": "MatchNotFoundMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/MatchUpdatedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "MatchUpdatedMessage",
+            "messageTitle": null,
+            "name": "MatchUpdatedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/NewHighScoreMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "You just moved up the ${leaderboardName} leaderboard",
+            "messageTitle": null,
+            "name": "NewHighScoreMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/NewTeamScoreMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "NewTeamScoreMessage",
+            "messageTitle": null,
+            "name": "NewTeamScoreMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/ScriptMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "ScriptMessage",
+            "messageTitle": null,
+            "name": "ScriptMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/SessionTerminatedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "SessionTerminatedMessage",
+            "messageTitle": null,
+            "name": "SessionTerminatedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/SocialRankChangedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "Your social rank has changed on the ${leaderboardName} leaderboard",
+            "messageTitle": null,
+            "name": "SocialRankChangedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/TeamChatMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "TeamChatMessage",
+            "messageTitle": null,
+            "name": "TeamChatMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/TeamRankChangedMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "TeamRankChangedMessage",
+            "messageTitle": null,
+            "name": "TeamRankChangedMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        },
+        {
+            "@id": "/~messages/UploadCompleteMessage",
+            "androidTemplate": null,
+            "deviceTypes": null,
+            "expireAfterHours": 60,
+            "fcmTemplate": null,
+            "iosTemplate": null,
+            "kindleTemplate": null,
+            "messageSubTitle": null,
+            "messageTemplate": "Your upload is complete",
+            "messageTitle": null,
+            "name": "UploadCompleteMessage",
+            "segmentData": null,
+            "sendAsPush": true,
+            "sendViaSocket": true,
+            "suppressPushIfSentViaSocket": true
+        }
+    ],
+    "~properties": [
+        {
+            "@id": "/~properties/MyVal",
+            "description": "my val",
+            "name": "my val",
+            "shortCode": "MyVal",
+            "value": {
+                "Level": "1"
+            }
+        }
+    ],
+    "~propertySets": [],
+    "~runningTotals": [
+        {
+            "@id": "/~runningTotals/AddCurrency",
+            "event": {
+                "@ref": "/~events/AddCurrency"
+            },
+            "groupBy": [],
+            "name": "AddCurrency",
+            "shortCode": "AddCurrency",
+            "system": true,
+            "team": null,
+            "~collectors": [
+                {
+                    "@id": "/~runningTotals/AddCurrency/~collectors/Value-all",
+                    "attribute": {
+                        "@ref": "/~events/AddCurrency/~attributes/Value"
+                    },
+                    "calcType": "LAST",
+                    "filterType": "*",
+                    "filterValue": null
+                }
+            ]
+        },
+        {
+            "@id": "/~runningTotals/GetReachedLevel",
+            "event": {
+                "@ref": "/~events/GetReachedLevel"
+            },
+            "groupBy": [],
+            "name": "Get reached level",
+            "shortCode": "GetReachedLevel",
+            "system": true,
+            "team": null,
+            "~collectors": []
+        },
+        {
+            "@id": "/~runningTotals/GetStars",
+            "event": {
+                "@ref": "/~events/GetStars"
+            },
+            "groupBy": [],
+            "name": "Get stars",
+            "shortCode": "GetStars",
+            "system": true,
+            "team": null,
+            "~collectors": []
+        },
+        {
+            "@id": "/~runningTotals/GetBoosts",
+            "event": {
+                "@ref": "/~events/GetBoosts"
+            },
+            "groupBy": [],
+            "name": "GetBoosts",
+            "shortCode": "GetBoosts",
+            "system": true,
+            "team": null,
+            "~collectors": []
+        },
+        {
+            "@id": "/~runningTotals/GetCurrency",
+            "event": {
+                "@ref": "/~events/GetCurrency"
+            },
+            "groupBy": [],
+            "name": "GetCurrency",
+            "shortCode": "GetCurrency",
+            "system": true,
+            "team": null,
+            "~collectors": []
+        },
+        {
+            "@id": "/~runningTotals/GetScore",
+            "event": {
+                "@ref": "/~events/GetScore"
+            },
+            "groupBy": [],
+            "name": "GetScore",
+            "shortCode": "GetScore",
+            "system": true,
+            "team": null,
+            "~collectors": []
+        },
+        {
+            "@id": "/~runningTotals/ScoreLevel",
+            "event": {
+                "@ref": "/~events/ScoreLevel"
+            },
+            "groupBy": [
+                {
+                    "@ref": "/~events/ScoreLevel/~attributes/Level"
+                }
+            ],
+            "name": "Score by level",
+            "shortCode": "ScoreLevel",
+            "system": true,
+            "team": null,
+            "~collectors": [
+                {
+                    "@id": "/~runningTotals/ScoreLevel/~collectors/Level-all",
+                    "attribute": {
+                        "@ref": "/~events/ScoreLevel/~attributes/Level"
+                    },
+                    "calcType": "MAX",
+                    "filterType": "*",
+                    "filterValue": null
+                },
+                {
+                    "@id": "/~runningTotals/ScoreLevel/~collectors/Score-all",
+                    "attribute": {
+                        "@ref": "/~events/ScoreLevel/~attributes/Score"
+                    },
+                    "calcType": "MAX",
+                    "filterType": "*",
+                    "filterValue": null
+                }
+            ]
+        },
+        {
+            "@id": "/~runningTotals/SetBoosts",
+            "event": {
+                "@ref": "/~events/SetBoosts"
+            },
+            "groupBy": [],
+            "name": "Set boosts",
+            "shortCode": "SetBoosts",
+            "system": true,
+            "team": null,
+            "~collectors": []
+        },
+        {
+            "@id": "/~runningTotals/SetReachedLevel",
+            "event": {
+                "@ref": "/~events/SetReachedLevel"
+            },
+            "groupBy": [],
+            "name": "Set Reached level",
+            "shortCode": "SetReachedLevel",
+            "system": true,
+            "team": null,
+            "~collectors": [
+                {
+                    "@id": "/~runningTotals/SetReachedLevel/~collectors/Level-all",
+                    "attribute": {
+                        "@ref": "/~events/SetReachedLevel/~attributes/Level"
+                    },
+                    "calcType": "MAX",
+                    "filterType": "*",
+                    "filterValue": null
+                }
+            ]
+        },
+        {
+            "@id": "/~runningTotals/SetStars",
+            "event": {
+                "@ref": "/~events/SetStars"
+            },
+            "groupBy": [
+                {
+                    "@ref": "/~events/SetStars/~attributes/Level"
+                }
+            ],
+            "name": "Set Stars",
+            "shortCode": "SetStars",
+            "system": true,
+            "team": null,
+            "~collectors": [
+                {
+                    "@id": "/~runningTotals/SetStars/~collectors/Stars-all",
+                    "attribute": {
+                        "@ref": "/~events/SetStars/~attributes/Stars"
+                    },
+                    "calcType": "MAX",
+                    "filterType": "*",
+                    "filterValue": null
+                },
+                {
+                    "@id": "/~runningTotals/SetStars/~collectors/Level-all",
+                    "attribute": {
+                        "@ref": "/~events/SetStars/~attributes/Level"
+                    },
+                    "calcType": "MAX",
+                    "filterType": "*",
+                    "filterValue": null
+                }
+            ]
+        },
+        {
+            "@id": "/~runningTotals/SetCurrency",
+            "event": {
+                "@ref": "/~events/SetCurrency"
+            },
+            "groupBy": [],
+            "name": "SetCurrency",
+            "shortCode": "SetCurrency",
+            "system": true,
+            "team": null,
+            "~collectors": [
+                {
+                    "@id": "/~runningTotals/SetCurrency/~collectors/Value-all",
+                    "attribute": {
+                        "@ref": "/~events/SetCurrency/~attributes/Value"
+                    },
+                    "calcType": "LAST",
+                    "filterType": "*",
+                    "filterValue": null
+                }
+            ]
+        },
+        {
+            "@id": "/~runningTotals/SpendCurrency",
+            "event": {
+                "@ref": "/~events/SpendCurrency"
+            },
+            "groupBy": [],
+            "name": "SpendCurrency",
+            "shortCode": "SpendCurrency",
+            "system": true,
+            "team": null,
+            "~collectors": [
+                {
+                    "@id": "/~runningTotals/SpendCurrency/~collectors/Value-all",
+                    "attribute": {
+                        "@ref": "/~events/SpendCurrency/~attributes/Value"
+                    },
+                    "calcType": "LAST",
+                    "filterType": "*",
+                    "filterValue": null
+                }
+            ]
+        }
+    ],
+    "~scripts": [
+        {
+            "@id": "/~scripts/event_AddCurrency",
+            "lastSaved": "2018-02-27T12:35Z",
+            "name": "AddCurrency",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for AddCurrency, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n// var playerData = Spark.runtimeCollection(\"Currency\"); // get the collection data\n// var playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\n// var currentPlayer = playerData.findOne({\n//     \"playerID\": Spark.getPlayer().getPlayerId()\n// });\n// var balance = currentPlayer.Value;\n// var Value = Spark.getData().Value;\n// var c = balance+Value;\n//   var currentPlayer = {\n//         \"Value\": c\n//     }; // we construct a new player from the data we are about to input into the player data\n//     playerData.update({\n//         \"playerID\": playerID\n//     }, //Looks for a doc with the id of the current player\n//     {\n//         \"$set\": currentPlayer\n//     }, // Uses the $set mongo modifier to set old player data to the current player data\n//     true, // Create the document if it does not exist (upsert)\n//     false // This query will only affect a single object (multi)\n//     );\n    \n    var API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\nvar entryObject = API.getItem(\"Currency\", playerID);\nvar data = entryObject.document().getData();\nvar balance = data.Value;\nif(balance == null) balance=0;\nvar Value = Spark.getData().Value;\nvar newBalance = balance+Value;\n\nvar saveEntry = API.createItem(\"Currency\", playerID);\nvar data = saveEntry.getData();\ndata.Value = newBalance;\n\nvar status = saveEntry.persistor().persist().error();\nif(status){\n    Spark.setScriptError(\"ERROR\", status);\n    Spark.exit();\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_GetBoosts",
+            "lastSaved": "2018-02-27T14:32Z",
+            "name": "GetBoosts",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for GetBoost, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n\n// var playerData = Spark.runtimeCollection(\"BoostsData\"); // get the collection data\n// var currentPlayer = playerData.findOne({\n//     \"playerID\": Spark.getPlayer().getPlayerId()\n// }); // search the collection data for the entry with the same id as the player\n\n// Spark.setScriptData(\"boosts_Data\", currentPlayer);\n\nvar API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().playerId;\nvar entryObject = API.getItem(\"BoostsData\", playerID);\n\n//If error attempting to retrieve entry\nif(entryObject.error()){\n    Spark.setScriptError(\"ERROR\", entryObject.error())\n} else{\n    //Get entry\n    var entry = entryObject.document();\n    var Boosts =null;\n    if(entry != null)\n     {  //Access Data\n         var data = entry.getData();\n          Boosts = data.Boosts;\n     }\n     var currentPlayer = {\n        \"playerID\": playerID,\n        \"Boosts\": Boosts\n    };\n    Spark.setScriptData(\"boosts_Data\", currentPlayer);\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_GetCurrency",
+            "lastSaved": "2018-02-27T14:31Z",
+            "name": "GetCurrency",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for GetCurrency, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n// var playerData = Spark.runtimeCollection(\"Currency\"); // get the collection data\n// var currentPlayer = playerData.findOne({\n//     \"playerID\": Spark.getPlayer().getPlayerId()\n// }); // search the collection data for the entry with the same id as the player\n\n// Spark.setScriptData(\"currency_Data\", currentPlayer);\n\nvar API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().playerId;\nvar entryObject = API.getItem(\"Currency\", playerID);\n\n//If error attempting to retrieve entry\nif(entryObject.error()){\n    Spark.setScriptError(\"ERROR\", entryObject.error())\n} else{\n    //Get entry\n    var entry = entryObject.document();\n    var value =0;\n    if(entry != null)\n     {  //Access Data\n        var data = entry.getData();\n         value = data.Value;\n     }\n    \n     var currentPlayer = {\n        \"playerID\": playerID,\n        \"Value\": value\n    };\n    Spark.setScriptData(\"currency_Data\", currentPlayer);\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_GetReachedLevel",
+            "lastSaved": "2018-02-27T14:30Z",
+            "name": "GetReachedLevel",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for GetReachedLevel, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n// var playerData = Spark.runtimeCollection(\"ReachedLevel\"); // get the collection data\n// var currentPlayer = playerData.findOne({\n//     \"playerID\": Spark.getPlayer().getPlayerId()\n// }); // search the collection data for the entry with the same id as the player\n// Spark.setScriptData(\"player_Data\", currentPlayer); // return the player via script-data\n\nvar API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().playerId;\nvar entryObject = API.getItem(\"SetReachedLevel\", playerID);\n\n//If error attempting to retrieve entry\nif(entryObject.error()){\n    Spark.setScriptError(\"ERROR\", entryObject.error())\n} else{\n    //Get entry\n    var entry = entryObject.document();\n     var level =0;\n    if(entry != null)\n     {  //Access Data\n      var data = entry.getData();\n       level = data.Level;}\n    \n    \n     var currentPlayer = {\n        \"playerID\": playerID,\n        \"level\": level\n    };\n    Spark.setScriptData(\"player_Data\", currentPlayer);\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_GetStars",
+            "lastSaved": "2018-02-24T09:43Z",
+            "name": "GetStars",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for GetStars, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\nvar playerID = Spark.getPlayer().getPlayerId();\nvar leaderboard = Spark.getLeaderboards().getLeaderboard(\"Stars\");\nvar c = leaderboard.getEntryCountForIdentifier(playerID);\nvar cursor = leaderboard.getEntriesForIdentifier(playerID, {});\nvar myarray = {};\n\n// for(var i =0 ; i <c ; i++){\n//     var entry = cursor.getEntries().next();\n//     var level = \"\";\n//     var stars = 0;\n//      level = entry.getAttribute(\"Level\");\n//      stars = entry.getAttribute(\"Stars\");\n//      var pos = entry.getRank();\n//      var t = entry.getWhen();\n//      var uid = entry.getUserId();\n// myarray[i] = {\"Level\": level, \"Stars\":stars}\n\n// }\n    Spark.setScriptData(\"stars_data\", cursor);",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_SetBoosts",
+            "lastSaved": "2018-02-27T12:48Z",
+            "name": "SetBoosts",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for SetBoosts, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n    // var playerDataList = Spark.runtimeCollection(\"BoostsData\"); // this will get the collection of player data\n\n    // var playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\n    // var Boosts = Spark.getData().Boosts;\n\n    // var currentPlayer = {\n    //     \"Boosts\": Boosts\n    // }; // we construct a new player from the data we are about to input into the player data\n    // playerDataList.update({\n    //     \"playerID\": playerID\n    // }, //Looks for a doc with the id of the current player\n    // {\n    //     \"$set\": currentPlayer\n    // }, // Uses the $set mongo modifier to set old player data to the current player data\n    // true, // Create the document if it does not exist (upsert)\n    // false // This query will only affect a single object (multi)\n    // );\n    \n    \nvar API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\nvar entryObject = API.createItem(\"BoostsData\", playerID);\nvar data = entryObject.getData();\n\nvar Boosts = Spark.getData().Boosts;\ndata.Boosts = Boosts;\n\nvar status = entryObject.persistor().persist().error();\nif(status){\n    Spark.setScriptError(\"ERROR\", status);\n    Spark.exit();\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_SetCurrency",
+            "lastSaved": "2018-02-27T12:24Z",
+            "name": "SetCurrency",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for SetCurrency, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n    // var playerDataList = Spark.runtimeCollection(\"Currency\"); // this will get the collection of player data\n\n    // var playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\n    // var Value = Spark.getData().Value;\n\n    // var currentPlayer = {\n    //     \"Value\": Value\n    // }; // we construct a new player from the data we are about to input into the player data\n    // playerDataList.update({\n    //     \"playerID\": playerID\n    // }, //Looks for a doc with the id of the current player\n    // {\n    //     \"$set\": currentPlayer\n    // }, // Uses the $set mongo modifier to set old player data to the current player data\n    // true, // Create the document if it does not exist (upsert)\n    // false // This query will only affect a single object (multi)\n    // );\n    \n    var API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\nvar entryObject = API.createItem(\"Currency\", playerID);\nvar data = entryObject.getData();\n\nvar Value = Spark.getData().Value;\ndata.Value = Value;\n\nvar status = entryObject.persistor().persist().error();\nif(status){\n    Spark.setScriptError(\"ERROR\", status);\n    Spark.exit();\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_SetReachedLevel",
+            "lastSaved": "2018-02-27T12:04Z",
+            "name": "SetReachedLevel",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for SetReachedLevel, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n//  var playerDataList = Spark.runtimeCollection(\"ReachedLevel\"); // this will get the collection of player data\n//     var playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\n//     var level = Spark.getData().Level; // we get the xp input from Unity\n//     var currentPlayer = {\n//         \"playerID\": playerID,\n//         \"level\": level\n//     }; // we construct a new player from the data we are about to input into the player data\n//     playerDataList.update({\n//         \"playerID\": playerID\n//     }, //Looks for a doc with the id of the current player\n//     {\n//         \"$set\": currentPlayer\n//     }, // Uses the $set mongo modifier to set old player data to the current player data\n//     true, // Create the document if it does not exist (upsert)\n//     false // This query will only affect a single object (multi)\n//     );\n\nvar API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\nvar entryObject = API.createItem(\"SetReachedLevel\", playerID);\nvar data = entryObject.getData();\ndata.Level = Spark.getData().Level;\n\nvar status = entryObject.persistor().persist().error();\nif(status){\n    Spark.setScriptError(\"ERROR\", status);\n    Spark.exit();\n}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_SetStars",
+            "lastSaved": "2018-02-24T09:43Z",
+            "name": "SetStars",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for Stars, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n//  var playerDataList = Spark.runtimeCollection(\"stars\"); // this will get the collection of player data\n//     var playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\n//     var level = Spark.getData().Level; // we get the xp input from Unity\n//     var stars = Spark.getData().Stars; // Get the gold input from Unity\n//     // var currentPlayer1 = playerDataList.findOne({\n//  //   \"playerID\": Spark.getPlayer().getPlayerId()\n// //});\n// //if(currentPlayer1.stars < stars){\n//     var currentPlayer = {\n//         \"playerID\": playerID,\n//         \"level\": level,\n//         \"stars\": stars\n//     }; // we construct a new player from the data we are about to input into the player data\n//     playerDataList.update({\n//         \"playerID\": playerID\n//     }, //Looks for a doc with the id of the current player\n//     {\n//         \"$set\": currentPlayer\n//     }, // Uses the $set mongo modifier to set old player data to the current player data\n//     true, // Create the document if it does not exist (upsert)\n//     false // This query will only affect a single object (multi)\n//     );\n// //}",
+            "type": "event"
+        },
+        {
+            "@id": "/~scripts/event_SpendCurrency",
+            "lastSaved": "2018-02-27T12:34Z",
+            "name": "SpendCurrency",
+            "script": "// ====================================================================================================\n//\n// Cloud Code for SpendCurrency, write your code here to customise the GameSparks platform.\n//\n// For details of the GameSparks Cloud Code API see https://portal.gamesparks.net/docs.htm\t\t\t\n//\n// ====================================================================================================\n// var playerData = Spark.runtimeCollection(\"Currency\"); // get the collection data\n// var playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\n// var currentPlayer = playerData.findOne({\n//     \"playerID\": Spark.getPlayer().getPlayerId()\n// });\n// var balance = currentPlayer.Value;\n// var Value = Spark.getData().Value;\n// var c = balance-Value;\n// if(c<0) c = 0;\n//   var currentPlayer = {\n//         \"Value\": c\n//     }; // we construct a new player from the data we are about to input into the player data\n//     playerData.update({\n//         \"playerID\": playerID\n//     }, //Looks for a doc with the id of the current player\n//     {\n//         \"$set\": currentPlayer\n//     }, // Uses the $set mongo modifier to set old player data to the current player data\n//     true, // Create the document if it does not exist (upsert)\n//     false // This query will only affect a single object (multi)\n//     );\n    \n    var API = Spark.getGameDataService();\n\nvar playerID = Spark.getPlayer().getPlayerId(); // first we get the id of the current player\nvar entryObject = API.getItem(\"Currency\", playerID);\nvar data = entryObject.document().getData();\nvar balance = data.Value;\nif(balance == null) balance=0;\nvar Value = Spark.getData().Value;\nvar newBalance = balance-Value;\n\nvar saveEntry = API.createItem(\"Currency\", playerID);\nvar data = saveEntry.getData();\ndata.Value = newBalance;\n\nvar status = saveEntry.persistor().persist().error();\nif(status){\n    Spark.setScriptError(\"ERROR\", status);\n    Spark.exit();\n}",
+            "type": "event"
+        }
+    ],
+    "~segmentQueries": [],
+    "~segments": [],
+    "~teams": [],
+    "~virtualGoods": []
+}

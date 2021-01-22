@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:51ec602d0220c6cf1c623ff4e7320dee:4a22edc4426e99174ddf12d00945d365:ee399dfdd9beeca0475220f2d95da842$
+#
+:format=40300
+:texture=boom.png
+:size=1024x256
+:pivotpoints=enabled
+:borders=disabled
+
+boom_05;1;129;142;126; 0.5;0.5; 0;0;0;0
+boom_06;145;129;142;126; 0.5;0.5; 0;0;0;0
+boom_07;289;129;142;126; 0.5;0.5; 0;0;0;0
+boom_08;433;129;142;126; 0.5;0.5; 0;0;0;0
+boom_09;577;129;142;126; 0.5;0.5; 0;0;0;0
+boom_10;721;129;142;126; 0.5;0.5; 0;0;0;0
+boom_11;865;129;142;126; 0.5;0.5; 0;0;0;0
+boom_12;1;1;142;126; 0.5;0.5; 0;0;0;0
+boom_13;145;1;142;126; 0.5;0.5; 0;0;0;0
+boom_14;289;1;142;126; 0.5;0.5; 0;0;0;0
+boom_15;433;1;142;126; 0.5;0.5; 0;0;0;0
+boom_16;577;1;142;126; 0.5;0.5; 0;0;0;0
+boom_17;721;1;142;126; 0.5;0.5; 0;0;0;0
